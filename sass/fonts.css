@@ -16,3 +16,21 @@
 	font-style: normal;
 	font-weight: normal;
 }
+@font-face {
+	font-family: "DINPro";
+	src: url("../fonts/DINPro/DINPro.eot");
+	src: url("../fonts/DINPro/DINPro.eot?#iefix") format("embedded-opentype"),
+			 url("../fonts/DINPro/DINPro.woff") format("woff"),
+			 url("../fonts/DINPro/DINPro.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "DINProBold";
+	src: url("../fonts/DINPro-Bold/DINPro-Bold.eot");
+	src: url("../fonts/DINPro-Bold/DINPro-Bold.eot?#iefix") format("embedded-opentype"),
+			 url("../fonts/DINPro-Bold/DINPro-Bold.woff") format("woff"),
+			 url("../fonts/DINPro-Bold/DINPro-Bold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}

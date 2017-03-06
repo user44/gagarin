@@ -1366,6 +1366,22 @@ hr {
   font-weight: normal;
 }
 
+@font-face {
+  font-family: "DINPro";
+  src: url("../fonts/DINPro/DINPro.eot");
+  src: url("../fonts/DINPro/DINPro.eot?#iefix") format("embedded-opentype"), url("../fonts/DINPro/DINPro.woff") format("woff"), url("../fonts/DINPro/DINPro.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "DINProBold";
+  src: url("../fonts/DINPro-Bold/DINPro-Bold.eot");
+  src: url("../fonts/DINPro-Bold/DINPro-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/DINPro-Bold/DINPro-Bold.woff") format("woff"), url("../fonts/DINPro-Bold/DINPro-Bold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
 /*======== sprite =========*/
 /*======== css libs =========*/
 /*======================= Styles ==========================*/
@@ -1373,6 +1389,38 @@ body {
   font-family: "PTSansRegular";
   color: #000;
   font-size: 14px;
+}
+
+.btn-accent {
+  padding: 8px 20px;
+  display: inline-block;
+  -webkit-box-shadow: 0 5px 13px rgba(118, 180, 246, 0.64);
+  -moz-box-shadow: 0 5px 13px rgba(118, 180, 246, 0.64);
+  box-shadow: 0 5px 13px rgba(118, 180, 246, 0.64);
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  border-radius: 16px;
+  background-color: #61acfc;
+  color: #fff;
+  font-size: 14px;
+  text-decoration: none;
+  -webkit-transition: .2s;
+  -o-transition: .2s;
+  -moz-transition: .2s;
+  transition: .2s;
+  position: relative;
+}
+
+.btn-accent:hover, .btn-accent:focus, .btn-accent:active {
+  color: #fff;
+  text-decoration: none;
+  -webkit-box-shadow: 0 5px 15px rgba(118, 180, 246, 0.84);
+  -moz-box-shadow: 0 5px 15px rgba(118, 180, 246, 0.84);
+  box-shadow: 0 5px 15px rgba(118, 180, 246, 0.84);
+}
+
+.btn-accent:active {
+  top: 1px;
 }
 
 .main-header {
@@ -1425,6 +1473,38 @@ body {
 
 .main-header .main-menu a:hover {
   color: #61acfc;
+}
+
+.main-header .callback-box {
+  text-align: center;
+}
+
+.main-header .callback-box .phone {
+  margin: 0 0 5px;
+  font-size: 24px;
+}
+
+.main-header .main-title-box {
+  margin: 30px 0;
+  text-align: center;
+}
+
+.main-header .main-title-box .main-title {
+  margin: 10px 0 0;
+  color: #28323c;
+  font-size: 72px;
+  font-family: "DINProBold";
+  text-transform: uppercase;
+  line-height: 85px;
+}
+
+.main-header .main-title-box .main-title span {
+  margin: 8px 0 0;
+  display: block;
+  font-size: 30px;
+  text-transform: uppercase;
+  line-height: 38px;
+  font-family: "DINPro";
 }
 
 /*==========  Desktop First Method  ==========*/
