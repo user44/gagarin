@@ -1376,10 +1376,14 @@ body {
 }
 
 .main-header {
-  background: url(../img/main-head-bg.jpg) no-repeat center;
+  background: url(../img/main-head-bg.jpg) no-repeat center top;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+.main-header .header {
+  padding: 20px 0;
 }
 
 .main-header .logo-box a {
@@ -1413,6 +1417,10 @@ body {
   font-size: 18px;
   color: #000;
   text-decoration: none;
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  -moz-transition: .3s;
+  transition: .3s;
 }
 
 .main-header .main-menu a:hover {
